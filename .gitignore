@@ -1,3 +1,7 @@
+initramfs/*
+rumi/bin
+rumi/obj
+
 # Prerequisites
 *.d
 custom-initramfs.cpio.gz
