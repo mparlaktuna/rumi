@@ -1,13 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <format>
-#include <iostream>
-#include <sys/reboot.h>
+#include "rumi.hpp"
 
-int main()
+namespace RUMI
 {
-   std::cout << "test" << std::endl;
-   reboot(RB_POWER_OFF); // Initiate power off
-
-   return(0);
+  
 }

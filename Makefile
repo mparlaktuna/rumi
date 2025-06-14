@@ -22,6 +22,9 @@ help:	## Show this help.
 build:	## Build something.
 	ls $(LINUX_BUILD)
 
+generate_doc: ## generate documentation
+	cd documentation && doxygen
+
 clean: 	## clean all builds
 	rm -rf out
 
