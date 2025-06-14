@@ -2,5 +2,8 @@
 
 namespace RUMI
 {
-  
+  Rumi::Rumi()
+  {
+    
+  }
 }
