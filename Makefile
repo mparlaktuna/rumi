@@ -23,7 +23,7 @@ build:	## Build something.
 	ls $(LINUX_BUILD)
 
 generate_doc: ## generate documentation
-	cd documentation && doxygen
+	doxygen
 
 clean: 	## clean all builds
 	rm -rf out
